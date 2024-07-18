@@ -1,0 +1,14 @@
+# Set the default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.js text
+*.json text
+*.md text
+*.ts text
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+
+git config --global core.autocrlf true   # Use this if you are on Windows
+git config --global core.autocrlf input  # Use this if you are on macOS or Linux
