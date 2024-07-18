@@ -10,5 +10,5 @@
 # Declare files that will always have LF line endings on checkout.
 *.sh text eol=lf
 
-git config --global core.autocrlf true   # Use this if you are on Windows
-git config --global core.autocrlf input  # Use this if you are on macOS or Linux
+# git config --global core.autocrlf true   # Use this if you are on Windows
+# git config --global core.autocrlf input  # Use this if you are on macOS or Linux
